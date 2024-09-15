@@ -47,7 +47,7 @@ def agregar_datos():
         entry_semestre.delete(0, tk.END)
         entry_especialidad.delete(0, tk.END)
     else:
-        tk.messagebox.showwarning("Advertencia", "Debe ingresar todos los campos.")
+        tk.messagebox.showwarning("Advertencia", "Llene todos los campos.")
 
 
 # Función para limpiar datos
